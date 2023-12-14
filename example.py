@@ -16,8 +16,8 @@ def randomGenerator(s, e, a):
 
 
 def makeNumber(text):
-    #isCorrect = False
-    while True: #not isCorrect:
+    isCorrect = False
+    while not isCorrect:
         n = input(text)
         try:
             n = int(n)
